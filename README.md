@@ -15,7 +15,7 @@ This project is a python implementation of SWOT, which is introduced in the pape
 
 SWOT is a spatially weighted optimal transport method that integrates single-cell RNA sequencing data with spatial transcriptomics data for the inference of cell-type composition and single-cell spatial maps. It contains two principal components: an optimal transport module for learning a cell-to-spot mapping and a cell mapping module for estimating cell-type proportions, cell numbers, and cell coordinates per spot.
 
-All the processed data required to produce figures presented in the manuscript can be found at Zenodo: https://doi.org/10.5281/zenodo.16737576.
+All the analysis code and processed data required to produce main figures presented in the manuscript can be found at Figshare: https://doi.org/10.6084/m9.figshare.29827427.
 
 ## Installation
 We suggest using a separate conda environment for installing SWOT. SWOT can be run in Windows Powershell or Linux Bash shell.
@@ -78,5 +78,6 @@ When using your own data to run SWOT, you should provide as:
 * The gene expression matrix of scRNA-seq and spatial transcriptomics data, rows represent genes and columns represent cells or spots, and saved as .csv format.
 * The cell type labels matrix of scRNA-seq data, rows represent cells and columns represent cell type information having 'celltype' for labels, and saved as .csv format.
 * The spatial coordinates matrix of spatial transcriptomics data, rows represent spots and columns represent coordinates information having 'X' and 'Y', and saved as .csv format.
+
 
 
